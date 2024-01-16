@@ -1,0 +1,47 @@
+.card-work{
+    cursor: pointer;
+    box-shadow: 8px 6px 11px 0px #2d2d2d3d;
+  
+}
+
+.card-work img{
+    height: 400px;
+    width: 320px;
+    object-fit: cover;
+}
+.work-description{
+    opacity: 0;
+    transition: .5s;
+    color: #fff;
+    z-index: 100;
+}
+
+.work-shadow{
+    background: transparent;
+    transition: .5s;
+    height: 0%;
+    overflow: hidden;
+}
+
+.card-work:hover .work-shadow{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(45,45,45,1) 100%);
+    display: block;
+    height: 100%;
+   
+}
+
+
+.card-work:hover .work-description{
+    opacity: 1;
+}
+
+.card-work:hover .card-work img{
+    scale: 2;
+}
+
+.work-shadow:hover{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(45,45,45,1) 100%);
+    display: block;
+    height: 100%;
+   
+}

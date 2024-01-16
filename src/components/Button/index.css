@@ -1,0 +1,18 @@
+.btn{
+    padding: 5px 10px;
+    border: 1px solid #2d2d2d;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px 1px #2d2d2d1a;
+}
+.btn:hover{
+
+}
+.btn:active{
+
+    box-shadow: 0px 0px 0px 1px #2d2d2d54;
+}
+
+
+.btn-primary{
+
+}
