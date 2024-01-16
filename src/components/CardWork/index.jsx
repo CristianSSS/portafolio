@@ -1,9 +1,9 @@
 import './index.css';
-import img from  '../../../public/images/work.webp';
+
 export default function CardWork(){
     return(
         <div className='card-work relative'>
-            <img className='w-100' src={img} alt="work" />
+            <img className='w-100'  alt="work" />
 
             <div className='work-description absolute bottom-0 left-0 p-5'>
                 <h3>Titulo proyecto </h3>
