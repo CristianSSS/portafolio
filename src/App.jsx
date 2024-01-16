@@ -23,15 +23,10 @@ export default function App() {
         </svg>
       </div>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt eget nullam non nisi est sit amet facilisis magna. Turpis massa tincidunt dui ut ornare lectus sit amet est. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Arcu dui vivamus arcu felis bibendum. Sollicitudin ac orci phasellus egestas. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Diam sollicitudin tempor id eu nisl nunc. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Quis lectus nulla at volutpat diam ut venenatis tellus.
+          Desarrollador Frontend 
       </p>
       
     </div>
-
-    <div className='flex justify-center'>
-      <CardWork/>
-    </div>
-
     <div className='my-10 py-20' style={{backgroundColor:"#2d2d2d"}}>
       <div className='container'>
         <div className='pb-5'>
