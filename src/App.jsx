@@ -75,7 +75,23 @@ export default function App() {
         </svg>
        
        <div>
-        <FormacionCard/>
+        <FormacionCard data={{name:"Coderhouse", type:"Online",title:"Certificación de react js", time:"Agosto 2023 – Septiembre 2023" }} >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
+        </FormacionCard>
+
+        <FormacionCard data={{name:"Educaci´on IT", type:"Online",title:"Javascript Desarrollador Avanzado", time:"Diciembre 2022 – Enero 2023" }} >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
+        </FormacionCard>
+
+        <FormacionCard data={{name:"UTN", type:"Avellaneda, BS.AS",title:"Técnico superior en programación", time:"Marzo 2019 – Diciembre 2019" }} >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
+        </FormacionCard>
+
+        <FormacionCard data={{name:"E.E.S.T N°1", type:"Santa Teresita, BS.AS",title:"Técnico en programación", time:"Marzo 2012 – Diciembre 2018" }} >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
+        </FormacionCard>
+
+
        </div>
       
       </div>

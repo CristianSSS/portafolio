@@ -1,16 +1,16 @@
-export default function FormacionCard(){
+export default function FormacionCard({children, data}){
     return(
         <div style={{color:"#fff"}}>
             <div className="flex w-full justify-between">
-                <h3>Coderhouse</h3>
-                <span>Online</span>
+                <h3>{data.name}</h3>
+                <span>{data.type}</span>
             </div>
             <div className="flex w-full justify-between">
-                <h4>Certificación de react js</h4>
-                <span>Agosto 2023 – Septiembre 2023</span>
+                <h4>{data.title}</h4>
+                <span>{data.time}</span>
             </div>
             
-            <p className="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.</p>
+            <p className="py-2">{children}</p>
         </div>
     )
 }
