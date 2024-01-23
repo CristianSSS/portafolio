@@ -1,12 +1,12 @@
-export default function FormacionCard({children, data}){
+export default function FormacionCard({children, data, className}){
     return(
-        <div style={{color:"#fff"}}>
+        <div className={className} style={{color:"#fff"}}>
             <div className="flex w-full justify-between">
-                <h3>{data.name}</h3>
+                <h3 className="font-bold text-xl">{data.name}</h3>
                 <span>{data.type}</span>
             </div>
             <div className="flex w-full justify-between">
-                <h4>{data.title}</h4>
+                <h4 className="text-sky">{data.title}</h4>
                 <span>{data.time}</span>
             </div>
             

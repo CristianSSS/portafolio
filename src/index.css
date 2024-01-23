@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+    color: #ffffff; /* Cambia el color a tu preferencia */
+    background-color:#38bdf8; /* Cambia el color de fondo a tu preferencia */
+  }
+
 *{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;

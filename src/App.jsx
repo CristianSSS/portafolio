@@ -18,7 +18,7 @@ export default function App() {
 
       <MailCTA/>
 
-      <div className='py-5' id='yo'>
+      <div className='py-10 mt-20' id='yo'>
         <p>Hola! me llamo</p>
         <h1 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Cristian Salgado</h1>
         <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,8 +26,12 @@ export default function App() {
         </svg>
       </div>
       <p>
-         Soy un desarrollador web enfocado en Frontend, creo sitios responsives y adaptables a cualquier dispositivo, creando interfacez 
+         Soy un desarrollador web enfocado y apasionado en el frontend utilizando <span className='text-sky'>React js</span> con conocimientos fullstack en el desarrollo de Wordpress. He creado sitios responsivos y atractivos, siempre buscando la obtimizacion y la mejora continua en el desarrollo de interfaces y funcionalidades. Soy una persona que busca consantemente mejorar la calidad de codigo. Tengo experiencia laboral en el sector trabajando en Wave It como desarrollador de wordpress donde he desempeñado tareas de alto desempeño en maquetacion e integraciones
       </p>
+      
+      <div className='flex justify-end'>
+        <a href="/cristian_salgado.pdf" className='ms-auto text-sky relative'  download >Descargar CV </a>
+      </div>
       
     </div>
     <div className='my-10 py-20' style={{backgroundColor:"#2d2d2d"}}>
@@ -55,6 +59,29 @@ export default function App() {
     <div className='mt-10 pt-20'>
 
       <div className='container'>
+        <h2 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Herramientas</h2>
+        <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="70" height="4" fill="#2D2D2D"/>
+        </svg>
+        <ul style={{color:'#2d2d2d'}}>
+        <li>Git / Github / GitLab </li>
+        <li>Jira / Asana </li>
+        <li>Microsoft Teams</li>
+        <li>VS Code / Sublime text</li>
+        <li>FileZilla</li>
+        <li>HeidiSQL</li>
+        <li>Figma / Photoshop</li>
+        <li>Excel / Word / Notion </li>
+     
+      </ul>
+      
+      </div>
+    </div>
+
+
+    <div className='mt-10 pt-20'>
+
+      <div className='container'>
         <h2 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Experiencia</h2>
         <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="70" height="4" fill="#2D2D2D"/>
@@ -66,28 +93,28 @@ export default function App() {
       </div>
     </div>
     
-    <div className='b-10 pt-20' style={{backgroundColor:"#2d2d2d"}}>
-      
-      <div className='container my-20 py-20'>
+    <div className='b-10 pb-20' style={{backgroundColor:"#2d2d2d"}}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L60,256C120,256,240,256,360,245.3C480,235,600,213,720,197.3C840,181,960,171,1080,170.7C1200,171,1320,181,1380,186.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+      <div className='container my-10 py-10'>
         <h2 className='text-6xl py-4' style={{'color':'#fff'}}>Formación</h2>
         <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="70" height="4" fill="#fff"/>
         </svg>
        
-       <div>
-        <FormacionCard data={{name:"Coderhouse", type:"Online",title:"Certificación de react js", time:"Agosto 2023 – Septiembre 2023" }} >
+       <div className='my-10'>
+        <FormacionCard className="my-10" data={{name:"Coderhouse", type:"Online",title:"React js", time:"Agosto 2023 – Septiembre 2023" }} >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
         </FormacionCard>
 
-        <FormacionCard data={{name:"Educaci´on IT", type:"Online",title:"Javascript Desarrollador Avanzado", time:"Diciembre 2022 – Enero 2023" }} >
+        <FormacionCard className="my-10" data={{name:"Educación IT", type:"Online",title:"Javascript Desarrollador Avanzado", time:"Diciembre 2022 – Enero 2023" }} >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
         </FormacionCard>
 
-        <FormacionCard data={{name:"UTN", type:"Avellaneda, BS.AS",title:"Técnico superior en programación", time:"Marzo 2019 – Diciembre 2019" }} >
+        <FormacionCard className="my-10" data={{name:"UTN", type:"Avellaneda, BS.AS",title:"Técnico superior en programación", time:"Marzo 2019 – Diciembre 2019" }} >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
         </FormacionCard>
 
-        <FormacionCard data={{name:"E.E.S.T N°1", type:"Santa Teresita, BS.AS",title:"Técnico en programación", time:"Marzo 2012 – Diciembre 2018" }} >
+        <FormacionCard className="my-10" data={{name:"E.E.S.T N°1", type:"Santa Teresita, BS.AS",title:"Técnico en programación", time:"Marzo 2012 – Diciembre 2018" }} >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
         </FormacionCard>
 
@@ -101,7 +128,7 @@ export default function App() {
     <Footer/>
 
 
-      <div className='fixed mx-auto bottom-0 flex justify-end  p-0  container' style={{transform: "translate(-50%, -50%)"}}>
+    <div className=' fixed bottom-0 right-0 flex mx-auto p-0  container' >
         <a href="/cristian_salgado.pdf" className='ms-auto'  download style={{backgroundColor:"#fff", borderRadius:"10px"}}>
           <button><FontAwesomeIcon className='text-5xl p-2' style={{color:"#2d2d2d"}} icon={faFileArrowDown} /></button>
         
