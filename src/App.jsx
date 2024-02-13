@@ -26,7 +26,7 @@ export default function App() {
         </svg>
       </div>
       <p>
-         Soy un desarrollador web enfocado y apasionado en el frontend utilizando <span className='text-sky'>React js</span> con conocimientos fullstack en el desarrollo de Wordpress. He creado sitios responsivos y atractivos, siempre buscando la obtimizacion y la mejora continua en el desarrollo de interfaces y funcionalidades. Soy una persona que busca consantemente mejorar la calidad de codigo. Tengo experiencia laboral en el sector trabajando en Wave It como desarrollador de wordpress donde he desempeñado tareas de alto desempeño en maquetacion e integraciones
+         Soy un desarrollador Fullstack con preferencia Frontend. He creado sitios responsivos y atractivos, siempre buscando la obtimizacion y la mejora continua en el desarrollo de interfaces y funcionalidades. Soy una persona que busca consantemente mejorar la calidad de codigo. Tengo experiencia laboral en el sector trabajando en Wave It como desarrollador de wordpress donde he desempeñado tareas de alto desempeño en maquetacion e integraciones
       </p>
       
       <div className='flex justify-end'>
@@ -46,7 +46,9 @@ export default function App() {
 
       <ul style={{color:'#fff'}}>
         <li><strong>Responsive desing y pixel perfect</strong> en maquetación web.</li>
-        <li>Creacion de aplicaciones SPA, escalables y mantenibles con <strong>React js.</strong></li>
+        <li>Creación de aplicaciones SPA, escalables y mantenibles con <strong>React js.</strong></li>
+        <li>Creación de CRUD</li>
+        <li>Integraciones con otros servicios y tecnologias</li>
         <li>Solidos conocimientos en <strong>Javascript</strong>, <strong>CSS</strong>, <strong>HTML</strong>. + <strong>jQuery</strong>, <strong>Bootstrap</strong>, <strong>Tailwind</strong>.</li>
         <li>Utilizacion y experiencia en varias librerias de Javascript.</li>
         <li>CMS <strong>Wordpress</strong> para creación de blogs, temas perzonalizados y sitios customizables.</li>
@@ -56,44 +58,43 @@ export default function App() {
     </div>
 
 
+s
     <div className='mt-10 pt-20'>
 
-      <div className='container'>
-        <h2 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Herramientas</h2>
+      <div className='container' style={{'color':'#2d2d2d'}}>
+        <h2 className='text-6xl py-4' >Experiencia</h2>
         <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="70" height="4" fill="#2D2D2D"/>
         </svg>
-        <ul style={{color:'#2d2d2d'}}>
-        <li>Git / Github / GitLab </li>
-        <li>Jira / Asana </li>
-        <li>Microsoft Teams</li>
-        <li>VS Code / Sublime text</li>
-        <li>FileZilla</li>
-        <li>HeidiSQL</li>
-        <li>Figma / Photoshop</li>
-        <li>Excel / Word / Notion </li>
-     
-      </ul>
-      
-      </div>
-    </div>
+        <div className='my-10'>
+
+        <FormacionCard className="my-10" data={{name:"Fullstack Wordpress", type:"Hibrido",title:"Wave IT", time:"Septiembre 2022 – Actualmente" }} >
+        Cre ́e temas, plugins y widgets de WordPress desde cero para implementar funcionalidades personalizadas para los
+        clientes, tales como formularios, galer ́ıas, ecommerce, branding, etc. Utilic ́e PHP y la API de WordPress para
+        interactuar con el backend y su base de datos.
+
+        • Utilic ́e HTML, CSS y jQuery para crear sitios web din ́amicos y responsivos que se adaptaran a diferentes
+        dispositivos y navegadores. Apliqu ́e los principios de dise ̃no web y las mejores pr ́acticas de codificaci ́on para
+        garantizar la usabilidad, la accesibilidad y la seguridad de los sitios web.
+        
+        • Utilic ́e plataformas de gesti ́on de tareas para crear y asignar responsabilidades, hacer seguimiento del progreso,
+        reportar el estado y resolver los problemas de los proyectos web que desarroll ́e con WordPress. Lider ́e y coordin ́e
+        equipos multidisciplinares de desarrolladores, dise ̃nadores y testers, proporcionando feedback, orientaci ́on y apoyo.
+        Comuniqu ́e eficazmente con los clientes, obteniendo los requerimientos, resolviendo las dudas, presentando los
+        resultados y solicitando la aprobaci ́on.
+       </FormacionCard>
+
+        <FormacionCard className="my-10" data={{name:"Profesor de programación y desarrollo web", type:"Presencial",title:"Instituto Podemos ", time:"Septiembre 2022 – Actualmente" }} >
+          Curso intensivo de React js en dode amplie conocimientos en el framework, aprendidendo componetizacion, estados, varios hooks, paginacion. Creacion de un ecommerce como proyecto final. Consumir APIs externas. Utilizacion de Firebase storage como base de datos y backend
+        </FormacionCard>
 
 
-    <div className='mt-10 pt-20'>
-
-      <div className='container'>
-        <h2 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Experiencia</h2>
-        <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="70" height="4" fill="#2D2D2D"/>
-        </svg>
-        <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt eget nullam non nisi est sit amet facilisis magna. Turpis massa tincidunt dui ut ornare lectus sit amet est. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Arcu dui vivamus arcu felis bibendum. Sollicitudin ac orci phasellus egestas. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Diam sollicitudin tempor id eu nisl nunc. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Quis lectus nulla at volutpat diam ut venenatis tellus.
-      </p>
+       </div>
       
       </div>
     </div>
     
-    <div className='b-10 pb-20' style={{backgroundColor:"#2d2d2d"}}>
+    <div className='b-10 pb-20' style={{backgroundColor:"#2d2d2d", color:"#fff"}}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L60,256C120,256,240,256,360,245.3C480,235,600,213,720,197.3C840,181,960,171,1080,170.7C1200,171,1320,181,1380,186.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
       <div className='container my-10 py-10'>
         <h2 className='text-6xl py-4' style={{'color':'#fff'}}>Formación</h2>
@@ -103,7 +104,7 @@ export default function App() {
        
        <div className='my-10'>
         <FormacionCard className="my-10" data={{name:"Coderhouse", type:"Online",title:"React js", time:"Agosto 2023 – Septiembre 2023" }} >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
+          Curso intensivo de React js en dode amplie conocimientos en el framework, aprendidendo componetizacion, estados, varios hooks, paginacion. Creacion de un ecommerce como proyecto final. Consumir APIs externas. Utilizacion de Firebase storage como base de datos y backend
         </FormacionCard>
 
         <FormacionCard className="my-10" data={{name:"Educación IT", type:"Online",title:"Javascript Desarrollador Avanzado", time:"Diciembre 2022 – Enero 2023" }} >
@@ -125,15 +126,39 @@ export default function App() {
      </div>
 
 
+     <div className='mt-10 pt-20'>
+
+      <div className='container'>
+        <h2 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Herramientas</h2>
+        <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="70" height="4" fill="#2D2D2D"/>
+        </svg>
+        <ul style={{color:'#2d2d2d'}}>
+        <li>Git / Github / GitLab </li>
+        <li>Jira / Asana </li>
+        <li>Microsoft Teams</li>
+        <li>VS Code / Sublime text</li>
+        <li>FileZilla</li>
+        <li>HeidiSQL</li>
+        <li>Figma / Photoshop</li>
+        <li>Excel / Word / Notion </li>
+
+      </ul>
+
+      </div>
+    </div>
+
+
     <Footer/>
 
 
-    <div className=' fixed bottom-0 right-0 flex mx-auto p-0  container' >
-        <a href="/cristian_salgado.pdf" className='ms-auto'  download style={{backgroundColor:"#fff", borderRadius:"10px"}}>
-          <button><FontAwesomeIcon className='text-5xl p-2' style={{color:"#2d2d2d"}} icon={faFileArrowDown} /></button>
-        
-        </a>
-    
+      <div className=' fixed bottom-0 right-0 flex mx-auto p-0 w-full' >
+        <div className='container flex justify-end'>
+          <a href="/cristian_salgado.pdf" className='self-end'  download style={{backgroundColor:"#fff", borderRadius:"10px"}}>
+            <button><FontAwesomeIcon className='text-5xl p-2' style={{color:"#2d2d2d"}} icon={faFileArrowDown} /></button>
+          </a>
+        </div>
+      
       </div>
     
     </div>
