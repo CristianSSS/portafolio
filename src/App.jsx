@@ -68,24 +68,35 @@ s
         </svg>
         <div className='my-10'>
 
-        <FormacionCard className="my-10" data={{name:"Fullstack Wordpress", type:"Hibrido",title:"Wave IT", time:"Septiembre 2022 – Actualmente" }} >
-        Cre ́e temas, plugins y widgets de WordPress desde cero para implementar funcionalidades personalizadas para los
-        clientes, tales como formularios, galer ́ıas, ecommerce, branding, etc. Utilic ́e PHP y la API de WordPress para
-        interactuar con el backend y su base de datos.
-
-        • Utilic ́e HTML, CSS y jQuery para crear sitios web din ́amicos y responsivos que se adaptaran a diferentes
-        dispositivos y navegadores. Apliqu ́e los principios de dise ̃no web y las mejores pr ́acticas de codificaci ́on para
+        <FormacionCard className="my-10" data={{name:"Fullstack Wordpress", type:"Híbrido",title:"Wave IT", time:"Septiembre 2022 – Actualmente" }} >
+        <p>
+          Creé temas, plugins y widgets de WordPress desde cero para implementar funcionalidades personalizadas y realize integraciones con servicios externos. Entre los proyectos que participe y dirigi se encuentran Ecommerce, sitios institucionales   . Utilicé PHP y la API de WordPress para
+          interactuar con el backend y su base de datos.
+        </p>
+        <p>
+        Utilicé HTML, CSS y jQuery para crear sitios web dinámicos y responsivos que se adaptaran a diferentes
+        dispositivos y navegadores. Apliqué los principios de diseño web y las mejores prácticas de codificación para
         garantizar la usabilidad, la accesibilidad y la seguridad de los sitios web.
-        
-        • Utilic ́e plataformas de gesti ́on de tareas para crear y asignar responsabilidades, hacer seguimiento del progreso,
-        reportar el estado y resolver los problemas de los proyectos web que desarroll ́e con WordPress. Lider ́e y coordin ́e
-        equipos multidisciplinares de desarrolladores, dise ̃nadores y testers, proporcionando feedback, orientaci ́on y apoyo.
-        Comuniqu ́e eficazmente con los clientes, obteniendo los requerimientos, resolviendo las dudas, presentando los
-        resultados y solicitando la aprobaci ́on.
+        </p>
+     
+          <p>
+          Utilicé plataformas de gestión de tareas para crear y asignar responsabilidades, hacer seguimiento del progreso,
+        reportar el estado y resolver los problemas de los proyectos web que desarrollé con WordPress. Lideré y coordiné
+        equipos multidisciplinares de desarrolladores, diseñadores y testers, proporcionando feedback, orientación y apoyo.
+        Comuniqué eficazmente con los clientes, obteniendo los requerimientos, resolviendo las dudas, presentando los
+        resultados y solicitando la aprobación.
+          </p>
+      
        </FormacionCard>
 
-        <FormacionCard className="my-10" data={{name:"Profesor de programación y desarrollo web", type:"Presencial",title:"Instituto Podemos ", time:"Septiembre 2022 – Actualmente" }} >
-          Curso intensivo de React js en dode amplie conocimientos en el framework, aprendidendo componetizacion, estados, varios hooks, paginacion. Creacion de un ecommerce como proyecto final. Consumir APIs externas. Utilizacion de Firebase storage como base de datos y backend
+        <FormacionCard className="my-10" data={{name:"Profesor de programación y desarrollo web", type:"Presencial",title:"Instituto Podemos ", time:"Julio 2023  – Octubre 2023" }} >
+          <p>
+            Impartí el taller de programación y desarrollo web en el Instituto Podemos, gestionando clases con una participación activa de más de 30 alumnos.
+          </p>
+          <p>
+            Facilité el aprendizaje, proporcionando conocimientos fundamentales en programación y desarrollo web, y fomenté la participación y la comprensión a través de enfoques pedagógicos efectivos.
+          </p>
+
         </FormacionCard>
 
 

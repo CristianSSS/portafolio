@@ -1,8 +1,21 @@
-# React + Vite
+# Portafolio personal | Cristian Salgado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el repositorio de mi portafolio web, donde muestro habilidades y experiencia en desarrollo web.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-React js
+-Tailwind
+
+[Enlace a la demostración en vivo](https://cristiansalgado.ar)
+
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+
+Correo electrónico: cristian.salgado4756@gmail.com
+
+## Licencia
+
+Este proyecto está bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
