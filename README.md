@@ -10,11 +10,15 @@ Este es el repositorio de mi portafolio web, donde muestro habilidades y experie
 [Enlace a la demostración en vivo](https://cristiansalgado.ar)
 
 
+
+
 ## Contacto
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
 Correo electrónico: cristian.salgado4756@gmail.com
+
+[Linkedin](https://www.linkedin.com/in/cristian-salgado-dev/)
 
 ## Licencia
 

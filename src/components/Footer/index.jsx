@@ -12,7 +12,10 @@ export default function Footer(){
             </address>
 
             <p className='text-center'>Desarrollado con ❤️ por Cristian Salgado utilizando React | Tailwind</p>
-
+            <div className="flex justify-center">
+                <a className="mx-auto z-50 relative color-sky underline underline-offset-4" href="https://github.com/CristianSSS/portafolio" target="_blank">Repositorio del proyecto</a>
+            </div>
+           
         </footer>
     )
 }
