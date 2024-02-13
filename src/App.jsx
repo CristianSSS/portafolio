@@ -6,6 +6,8 @@ import MailCTA from './components/MailCTA';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFileArrowDown} from '@fortawesome/free-solid-svg-icons'
 import FormacionCard from './components/FormacionCard';
+import SoftSkillImg from '/images/soft-skills.png';
+
 export default function App() {
 
 
@@ -144,17 +146,22 @@ s
         <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="70" height="4" fill="#2D2D2D"/>
         </svg>
-        <ul style={{color:'#2d2d2d'}}>
-        <li>Git / Github / GitLab </li>
-        <li>Jira / Asana </li>
-        <li>Microsoft Teams</li>
-        <li>VS Code / Sublime text</li>
-        <li>FileZilla</li>
-        <li>HeidiSQL</li>
-        <li>Figma / Photoshop</li>
-        <li>Excel / Word / Notion </li>
+        <div className='flex justify-between my-10'>
+           <ul style={{color:'#2d2d2d'}}>
+          <li>Git / Github / GitLab </li>
+          <li>Jira / Asana </li>
+          <li>Microsoft Teams</li>
+          <li>VS Code / Sublime text</li>
+          <li>FileZilla</li>
+          <li>HeidiSQL</li>
+          <li>Figma / Photoshop</li>
+          <li>Excel / Word / Notion </li>
 
       </ul>
+
+      <img src={SoftSkillImg} alt="" className='' />
+        </div>
+       
 
       </div>
     </div>
