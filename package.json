@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage":"https://cristiansalgado.ar/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
