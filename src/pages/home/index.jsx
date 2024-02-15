@@ -1,6 +1,4 @@
 import CardWork from '../../components/CardWork';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
 import MailCTA from '../../components/MailCTA';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFileArrowDown} from '@fortawesome/free-solid-svg-icons'
@@ -12,8 +10,6 @@ export default function Home(){
         <div className='relative'>
         <div className='container mx-auto h-auto md:h-screen min-h-600'>
           
-          <Header/>
-    
           <MailCTA/>
     
           <div className='py-10 mt-20' id='yo'>
@@ -163,9 +159,7 @@ export default function Home(){
         </div>
     
     
-        <Footer/>
-    
-    
+       
           <div className=' fixed bottom-0 right-0 flex mx-auto p-0 w-full' >
             <div className='container flex justify-end'>
               <a href="/cristian_salgado.pdf" className='self-end'  download style={{backgroundColor:"#fff", borderRadius:"10px"}}>

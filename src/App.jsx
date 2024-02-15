@@ -2,6 +2,9 @@ import './App.css'
 import Admin from './pages/admin';
 import Home from './pages/home';
 
+import Footer from './components/Footer';
+import Header from './components/Header';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import {getFirestore, doc, getDoc } from "firebase/firestore"; 
@@ -25,13 +28,23 @@ export default function App() {
   }, [])
 
   return (
+    <>
+      <BrowserRouter>
+        <div className='container'>
+          <Header/>
+        </div>
 
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>} /> 
-        <Route path='/admin' element={<Admin/>} /> 
-      </Routes>
-    </BrowserRouter>
- 
+        <Routes>
+          <Route path='/' element={<Home/>} /> 
+          <Route path='/admin' element={<Admin/>} /> 
+        </Routes>
+        
+        <div className='container'>
+          <Footer/>
+        </div>
+      </BrowserRouter>
+
+    </>
+  
   )
 }
