@@ -1,13 +1,11 @@
 import Button from "../../components/Button";
+
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 const provider = new GoogleAuthProvider();
 
-
-
-
 export default function Admin(){
-
+    
     const auth = getAuth();
 
     const singInGoogle=(e)=>{
