@@ -1,7 +1,7 @@
 import './App.css'
 import Admin from './pages/admin';
 import Home from './pages/home';
-
+import backGroundimg from '../public/images/fondo.png'
 import Footer from './components/Footer';
 import Header from './components/Header';
 
@@ -28,7 +28,7 @@ export default function App() {
   }, [])
 
   return (
-    <>
+    <div style={{backgroundImage:'url(' + backGroundimg + ')', backgroundSize:"cover", backgroundAttachment:"fixed"}}>
       <BrowserRouter>
         <div className='container'>
           <Header/>
@@ -44,7 +44,7 @@ export default function App() {
         </div>
       </BrowserRouter>
 
-    </>
+    </div>
   
   )
 }
