@@ -1,19 +1,23 @@
+import Button from '../Button';
 import './index.css';
 
-export default function CardWork(){
+export default function CardWork({src, description, title}){
     return(
-        <div className='card-work relative'>
-            <img className='w-100'  alt="work" />
+        <article className='card-work relative'>
+            
+                <img src={src} className='w-100'  alt="work" />
 
-            <div className='work-description absolute bottom-0 left-0 p-5'>
-                <h3>Titulo proyecto </h3>
-                <p>
-                    descripcion
-                </p>
-            </div>
-            <div className='absolute bottom-0 left-0 p-2 work-shadow w-full '>
+                <div className='work-descriptionp-5 py-5 px-2'>
+                    <h3 className='font-bold'>{title}</h3>
+                    <p>
+                       {description}
+                    </p>
+                    <Button>
+                        Ver mas
+                    </Button>
+                </div>
                 
-            </div>
-        </div>
+           
+        </article>
     )
 }

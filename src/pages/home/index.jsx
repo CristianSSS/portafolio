@@ -4,15 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFileArrowDown} from '@fortawesome/free-solid-svg-icons'
 import FormacionCard from '../../components/FormacionCard';
 import SoftSkillImg from '/images/soft-skills.png';
+import ListWorks from '../../components/listWorks';
 
 export default function Home(){
     return(
         <div className='relative'>
-        <div className='container mx-auto h-auto md:h-screen min-h-600'>
+        <div className='container mx-auto'>
           
-          <MailCTA/>
-    
-          <div className='py-10 mt-20' id='yo'>
+          <div className=' mt-20' id='yo'>
             <p>Hola! me llamo</p>
             <h1 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Cristian Salgado</h1>
             <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,11 +27,21 @@ export default function Home(){
           </div>
           
         </div>
+
+
+        <div className='container mx-auto'>
+            <h2 className='text-6xl py-4' >Mis trabajos</h2>
+            <div>
+              <ListWorks quantity={5} />
+            </div>
+        </div>
+
+
         <div className='my-10 py-20' style={{backgroundColor:"#2d2d2d"}}>
           <div className='container'>
             <div className='pb-5'>
               
-              <h1 className='text-6xl py-4' style={{'color':'#fff'}}>Habilidades</h1>
+              <h2 className='text-6xl py-4' style={{'color':'#fff'}}>Habilidades</h2>
               <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="70" height="4" fill="#fff"/>
               </svg>

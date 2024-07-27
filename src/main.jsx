@@ -4,12 +4,12 @@ import App from './App.jsx'
 import './index.css'
 
 
-// Import the functions you need from the SDKs you need
+//Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+//TODO: Add SDKs for Firebase products that you want to use
+//https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+//Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyAg8Xz09VWFAFw9COFzIvjM4X165uCswbM",
     authDomain: "portafolio-e028e.firebaseapp.com",
