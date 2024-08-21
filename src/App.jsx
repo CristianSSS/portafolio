@@ -28,7 +28,8 @@ export default function App() {
   }, [])
 
   return (
-    <div style={{backgroundImage:'url(' + backGroundimg + ')', backgroundSize:"cover", backgroundAttachment:"fixed"}}>
+    //style={{backgroundImage:'url(' + backGroundimg + ')', backgroundSize:"cover", backgroundAttachment:"fixed"}}
+    <div>
       <BrowserRouter>
         <div className='container'>
           <Header/>

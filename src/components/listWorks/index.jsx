@@ -13,10 +13,10 @@ export default function ListWorks({quantity}){
         <>
         <div className="flex gap-10 flex-wrap justify-between">
 
-          <CardWork src={uaaImage} title={'Universidad Atlantica Argentina'} description={'Sitio universitario para obtener informacion de carreras, contactarse con el campus y pagar semestres'} />
+          <CardWork src={uaaImage} title={'Universidad Atlantida Argentina'} description={'Sitio universitario para obtener informacion de carreras, contactarse con el campus y pagar semestres'} />
           <CardWork src={waveImage} title={'Wave It'} description={'Sitio universitario para obtener informacion de carreras, contactarse con el campus y pagar semestres'} />
           <CardWork src={benderImage} title={'Bender'} description={'Sitio universitario para obtener informacion de carreras, contactarse con el campus y pagar semestres'} />
-          <CardWork src={gdsImage} title={'Universidad Atlantica Argentina'} description={'Sitio universitario para obtener informacion de carreras, contactarse con el campus y pagar semestres'} />
+          <CardWork src={gdsImage} title={'GDS Branding'} description={'Sitio universitario para obtener informacion de carreras, contactarse con el campus y pagar semestres'} />
 
         </div>
 

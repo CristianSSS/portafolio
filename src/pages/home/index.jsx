@@ -7,19 +7,21 @@ import SoftSkillImg from '/images/soft-skills.png';
 import ListWorks from '../../components/listWorks';
 
 export default function Home(){
+  //   Soy un desarrollador Fullstack con preferencia Frontend. He creado sitios responsivos y atractivos, siempre buscando la obtimizacion y la mejora continua en el desarrollo de interfaces y funcionalidades. Soy una persona que busca consantemente mejorar la calidad de codigo. Tengo experiencia laboral en el sector trabajando en Wave It como desarrollador de wordpress donde he desempeñado tareas de alto desempeño en maquetacion e integraciones
+         
     return(
         <div className='relative'>
         <div className='container mx-auto'>
           
           <div className=' mt-20' id='yo'>
             <p>Hola! me llamo</p>
-            <h1 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Cristian Salgado</h1>
+            <h1 className='text-6xl py-4 font-bold' style={{'color':'#2d2d2d'}}>Cristian Salgado</h1>
             <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="70" height="4" fill="#2D2D2D"/>
             </svg>
           </div>
-          <p>
-             Soy un desarrollador Fullstack con preferencia Frontend. He creado sitios responsivos y atractivos, siempre buscando la obtimizacion y la mejora continua en el desarrollo de interfaces y funcionalidades. Soy una persona que busca consantemente mejorar la calidad de codigo. Tengo experiencia laboral en el sector trabajando en Wave It como desarrollador de wordpress donde he desempeñado tareas de alto desempeño en maquetacion e integraciones
+          <p className='text-2xl py-4'>
+                Soy un desarrollador web fullstack. Apasionado, creativo e inovador. Bienvenido/a a mi portafolio
           </p>
           
           <div className='flex justify-end'>
@@ -29,9 +31,12 @@ export default function Home(){
         </div>
 
 
-        <div className='container mx-auto'>
-            <h2 className='text-6xl py-4' >Mis trabajos</h2>
-            <div>
+        <div className='container mx-auto my-5'>
+            <h2 className='text-6xl font-bold	font-bold	 py-4' style={{'color':'#2d2d2d'}} >Mis trabajos</h2>
+            <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="70" height="4" fill="#2D2D2D"/>
+            </svg>
+            <div className='my-5'>
               <ListWorks quantity={5} />
             </div>
         </div>
@@ -41,7 +46,7 @@ export default function Home(){
           <div className='container'>
             <div className='pb-5'>
               
-              <h2 className='text-6xl py-4' style={{'color':'#fff'}}>Habilidades</h2>
+              <h2 className='text-6xl font-bold	py-4' style={{'color':'#fff'}}>Habilidades tecnicas</h2>
               <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="70" height="4" fill="#fff"/>
               </svg>
@@ -54,7 +59,7 @@ export default function Home(){
             <li>Integraciones con otros servicios y tecnologias</li>
             <li>Solidos conocimientos en <strong>Javascript</strong>, <strong>CSS</strong>, <strong>HTML</strong>. + <strong>jQuery</strong>, <strong>Bootstrap</strong>, <strong>Tailwind</strong>.</li>
             <li>Utilizacion y experiencia en varias librerias de Javascript.</li>
-            <li>CMS <strong>Wordpress</strong> para creación de blogs, temas perzonalizados y sitios customizables.</li>
+            <li>CMS <strong>Wordpress</strong> para creación de blogs, temas perzonalizados, sitios customizables e <strong>Ecommerce.</strong></li>
             <li>Conocimiento de <strong>SEO</strong> y estrategias de posicionamiento web; Generando una solida estructura semantica y amigable con los motores de busqueda.</li>
           </ul>
           </div>
@@ -65,7 +70,7 @@ export default function Home(){
         <div className='mt-10 pt-20'>
     
           <div className='container' style={{'color':'#2d2d2d'}}>
-            <h2 className='text-6xl py-4' >Experiencia</h2>
+            <h2 className='text-6xl font-bold	 py-4' >Experiencia laboral</h2>
             <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="70" height="4" fill="#2D2D2D"/>
             </svg>
@@ -111,7 +116,7 @@ export default function Home(){
         <div className='b-10 pb-20' style={{backgroundColor:"#2d2d2d", color:"#fff"}}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L60,256C120,256,240,256,360,245.3C480,235,600,213,720,197.3C840,181,960,171,1080,170.7C1200,171,1320,181,1380,186.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
           <div className='container my-10 py-10'>
-            <h2 className='text-6xl py-4' style={{'color':'#fff'}}>Formación</h2>
+            <h2 className='text-6xl font-bold	 py-4' style={{'color':'#fff'}}>Formación</h2>
             <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="70" height="4" fill="#fff"/>
             </svg>
@@ -143,7 +148,7 @@ export default function Home(){
          <div className='mt-10 pt-20'>
     
           <div className='container'>
-            <h2 className='text-6xl py-4' style={{'color':'#2d2d2d'}}>Herramientas</h2>
+            <h2 className='text-6xl font-bold	py-4' style={{'color':'#2d2d2d'}}>Herramientas</h2>
             <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="70" height="4" fill="#2D2D2D"/>
             </svg>
