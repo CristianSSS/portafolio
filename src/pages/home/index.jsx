@@ -6,30 +6,30 @@ import FormacionCard from '../../components/FormacionCard';
 import SoftSkillImg from '/images/soft-skills.png';
 import ListWorks from '../../components/listWorks';
 
+
 export default function Home(){
   //   Soy un desarrollador Fullstack con preferencia Frontend. He creado sitios responsivos y atractivos, siempre buscando la obtimizacion y la mejora continua en el desarrollo de interfaces y funcionalidades. Soy una persona que busca consantemente mejorar la calidad de codigo. Tengo experiencia laboral en el sector trabajando en Wave It como desarrollador de wordpress donde he desempeñado tareas de alto desempeño en maquetacion e integraciones
          
     return(
-        <div className='relative'>
-        <div className='container mx-auto'>
+        <div className='relative' >
+        <div style={{backgroundImage:'url(/images/fondo.jpg)', maskImage:'linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 10%, rgba(255, 255, 255, 0) 90%)'}}>
+        <div className='container mx-auto h-screen max-h-[600px] flex items-center'>
           
-          <div className=' mt-20' id='yo'>
-            <p>Hola! me llamo</p>
-            <h1 className='text-6xl py-4 font-bold' style={{'color':'#2d2d2d'}}>Cristian Salgado</h1>
+          <div className='w-full' id='yo'>
+            <p style={{color:'#fff'}}>Hola! me llamo</p>
+            <h1 className='text-6xl py-4 font-bold' style={{'color':'#fff'}}>Cristian Salgado</h1>
             <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="70" height="4" fill="#2D2D2D"/>
+            <rect width="70" height="4" fill="#fff"/>
             </svg>
           </div>
-          <p className='text-2xl py-4'>
+          <p className='text-2xl' style={{color:'#fff'}}>
                 Soy un desarrollador web fullstack. Apasionado, creativo e inovador. Bienvenido/a a mi portafolio
           </p>
           
-          <div className='flex justify-end'>
-            <a href="/cristian_salgado.pdf" className='ms-auto text-sky relative'  download >Descargar CV </a>
-          </div>
+          
           
         </div>
-
+        </div>
 
         <div className='container mx-auto my-5'>
             <h2 className='text-6xl font-bold	font-bold	 py-4' style={{'color':'#2d2d2d'}} >Mis trabajos</h2>
@@ -42,17 +42,47 @@ export default function Home(){
         </div>
 
 
-        <div className='my-10 py-20' style={{backgroundColor:"#2d2d2d"}}>
+
+        
+        <div className='container mx-auto my-5'>
+            <h2 className='text-6xl font-bold	font-bold	 py-4' style={{'color':'#2d2d2d'}} >Mi stack</h2>
+            <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="70" height="4" fill="#2D2D2D"/>
+            </svg>
+            <div className='my-5 flex flex-wrap gap-4 justify-between'>
+              
+              
+            <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/javascript.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/react.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/materialui.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/tailwind.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/bootstrap.svg" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/wordpress.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/php.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/jquery.webp" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/html.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/css.svg" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/sql.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/firebase.webp" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/nodejs.png" alt="" />
+
+
+            </div>
+        </div>
+
+
+
+        <div className='my-10 py-20' >
           <div className='container'>
             <div className='pb-5'>
               
-              <h2 className='text-6xl font-bold	py-4' style={{'color':'#fff'}}>Habilidades tecnicas</h2>
+              <h2 className='text-6xl font-bold	py-4' style={{'color':'#2d2d2d'}}>Habilidades tecnicas</h2>
               <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="70" height="4" fill="#fff"/>
+              <rect width="70" height="4" fill="#2D2D2D"/>
               </svg>
             </div>
     
-          <ul style={{color:'#fff'}}>
+          <ul style={{'color':'#2d2d2d'}}>
             <li><strong>Responsive desing y pixel perfect</strong> en maquetación web.</li>
             <li>Creación de aplicaciones SPA, escalables y mantenibles con <strong>React js.</strong></li>
             <li>Creación de CRUD</li>
@@ -66,8 +96,8 @@ export default function Home(){
         </div>
     
     
-    s
-        <div className='mt-10 pt-20'>
+    
+        <div className=''>
     
           <div className='container' style={{'color':'#2d2d2d'}}>
             <h2 className='text-6xl font-bold	 py-4' >Experiencia laboral</h2>
@@ -75,8 +105,13 @@ export default function Home(){
               <rect width="70" height="4" fill="#2D2D2D"/>
             </svg>
             <div className='my-10'>
-    
-            <FormacionCard className="my-10" data={{name:"Fullstack Wordpress", type:"Híbrido",title:"Wave IT", time:"Septiembre 2022 – Actualmente" }} >
+
+            <FormacionCard className="my-10" data={{name:"Freelance", type:"Online",title:"", time:"Agosto 2024 – Actualmente" }} >
+              <p>Trabajo como autonomo brindando servicios de desarrollo web a todo tipo de clientes</p>
+            </FormacionCard>
+            <FormacionCard className="my-10" data={{name:"Fullstack Wordpress", type:"Híbrido",title:"Wave IT", time:"Marzo 2022 – Agosto 2024" }} >
+          
+            
             <p>
               Creé temas, plugins y widgets de WordPress desde cero para implementar funcionalidades personalizadas y realize integraciones con servicios externos. Entre los proyectos que participe y dirigi se encuentran Ecommerce, sitios institucionales   . Utilicé PHP y la API de WordPress para
               interactuar con el backend y su base de datos.
@@ -96,6 +131,8 @@ export default function Home(){
               </p>
           
            </FormacionCard>
+
+          
     
             <FormacionCard className="my-10" data={{name:"Profesor de programación y desarrollo web", type:"Presencial",title:"Instituto Podemos ", time:"Julio 2023  – Octubre 2023" }} >
               <p>
@@ -113,10 +150,9 @@ export default function Home(){
           </div>
         </div>
         
-        <div className='b-10 pb-20' style={{backgroundColor:"#2d2d2d", color:"#fff"}}>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L60,256C120,256,240,256,360,245.3C480,235,600,213,720,197.3C840,181,960,171,1080,170.7C1200,171,1320,181,1380,186.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
-          <div className='container my-10 py-10'>
-            <h2 className='text-6xl font-bold	 py-4' style={{'color':'#fff'}}>Formación</h2>
+        <div className='b-10 pb-20' style={{'color':'#2d2d2d'}}>
+          <div className='container'>
+            <h2 className='text-6xl font-bold	 py-4' >Formación</h2>
             <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="70" height="4" fill="#fff"/>
             </svg>
@@ -130,7 +166,7 @@ export default function Home(){
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
             </FormacionCard>
     
-            <FormacionCard className="my-10" data={{name:"UTN", type:"Avellaneda, BS.AS",title:"Técnico superior en programación", time:"Marzo 2019 – Diciembre 2019" }} >
+            <FormacionCard className="my-10" data={{name:"UTN", type:"Avellaneda, BS.AS",title:"Técnico superior en programación", time:"Marzo 2019 – Diciembre 2020" }} >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore autem reiciendis quae voluptas at repellendus cupiditate repellat fuga. Minima dolorem iste explicabo sit libero aliquam blanditiis labore velit impedit nam.
             </FormacionCard>
     
@@ -152,20 +188,22 @@ export default function Home(){
             <svg width="70" height="4" viewBox="0 0 70 4" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="70" height="4" fill="#2D2D2D"/>
             </svg>
-            <div className='flex justify-between my-10'>
-               <ul style={{color:'#2d2d2d'}}>
-              <li>Git / Github / GitLab </li>
-              <li>Jira / Asana </li>
-              <li>Microsoft Teams</li>
-              <li>VS Code / Sublime text</li>
-              <li>FileZilla</li>
-              <li>HeidiSQL</li>
-              <li>Figma / Photoshop</li>
-              <li>Excel / Word / Notion </li>
-    
-          </ul>
-    
-          <img src={SoftSkillImg} alt="" className='' />
+            <div className='flex flex-wrap justify-between my-10'>
+             
+
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/git.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/github.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/gitlab.webp" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/jira.svg" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/asana.svg" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/teamspng.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/vslogo.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/sublime-text.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/filezilla.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/heidi.png" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/figma.webp" alt="" />
+              <img style={{width:"50px",height:"50px",objectFit:"contain"}} src="/images/photoshop.png" alt="" />
+
             </div>
            
     

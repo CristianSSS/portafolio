@@ -3,7 +3,7 @@ import SocialMedia from "../SocialMedia"
 import MailCTA from "../MailCTA"
 export default function Header(){
     return(      
-        <header className='py-5 flex justify-between items-center gap-10'>
+        <header className='py-2 flex justify-between items-center gap-10'>
 
             <Link to="/" >
                 <svg width="85" height="60" viewBox="0 0 85 60" fill="none" xmlns="http://www.w3.org/2000/svg">

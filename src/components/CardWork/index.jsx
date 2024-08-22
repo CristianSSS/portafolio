@@ -1,9 +1,13 @@
 import Button from '../Button';
+import ModalWork from '../ModalWork';
 import './index.css';
 
 export default function CardWork({src, description, title}){
+    function handlerModal(){
+        return(<ModalWork />)
+    }
     return(
-        <article className='card-work relative rounded'>
+        <article onClick={handlerModal} className='card-work relative rounded'>
                 <div className='overflow-hidden	'>
                     <img src={src} className='w-100 rounded-t'  alt="work" />
                 </div>
